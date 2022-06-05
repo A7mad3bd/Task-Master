@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item   android:id="@+id/logout"
+        android:orderInCategory="400"
+        android:title="Logout"
+        app:showAsAction="never"/>
+
+    <item   android:id="@+id/Homepage"
+        android:orderInCategory="200"
+        android:title="Home Page"
+        app:showAsAction="never"/>
+
+
+    <item   android:id="@+id/Add_Task"
+            android:orderInCategory="200"
+            android:title="Add Task"
+            app:showAsAction="never"/>
+
+    <item   android:id="@+id/AllTasks"
+        android:orderInCategory="200"
+        android:title="All Tasks"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/usernamee"
+        android:title="username"
+        app:showAsAction="always" />
+</menu>
