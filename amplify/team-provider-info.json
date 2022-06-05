@@ -1,0 +1,20 @@
+{
+  "tmm": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-taksmaster-tmm-30359-authRole",
+      "UnauthRoleArn": "arn:aws:iam::147431480405:role/amplify-taksmaster-tmm-30359-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::147431480405:role/amplify-taksmaster-tmm-30359-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-taksmaster-tmm-30359-deployment",
+      "UnauthRoleName": "amplify-taksmaster-tmm-30359-unauthRole",
+      "StackName": "amplify-taksmaster-tmm-30359",
+      "StackId": "arn:aws:cloudformation:eu-central-1:147431480405:stack/amplify-taksmaster-tmm-30359/61f8a5b0-e13e-11ec-9c5b-0a4ffde276c4",
+      "AmplifyAppId": "d20fe7n3ojdtcw"
+    },
+    "categories": {
+      "auth": {
+        "taksmaster3a199700": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,94 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateTask {
+  onCreateTask {
+    id
+    title
+    status
+    description
+    createdAt
+    updatedAt
+    teamTasksId
+  }
+}
+subscription OnUpdateTask {
+  onUpdateTask {
+    id
+    title
+    status
+    description
+    createdAt
+    updatedAt
+    teamTasksId
+  }
+}
+subscription OnDeleteTask {
+  onDeleteTask {
+    id
+    title
+    status
+    description
+    createdAt
+    updatedAt
+    teamTasksId
+  }
+}
+subscription OnCreateTeam {
+  onCreateTeam {
+    id
+    name
+    tasks {
+      items {
+        id
+        title
+        status
+        description
+        createdAt
+        updatedAt
+        teamTasksId
+      }
+      nextToken
+    }
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateTeam {
+  onUpdateTeam {
+    id
+    name
+    tasks {
+      items {
+        id
+        title
+        status
+        description
+        createdAt
+        updatedAt
+        teamTasksId
+      }
+      nextToken
+    }
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteTeam {
+  onDeleteTeam {
+    id
+    name
+    tasks {
+      items {
+        id
+        title
+        status
+        description
+        createdAt
+        updatedAt
+        teamTasksId
+      }
+      nextToken
+    }
+    createdAt
+    updatedAt
+  }
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array
+        name="state">
+        <item>comlete</item>
+        <item>in progress</item>
+        <item>empty</item>
+    </string-array>
+    <string-array
+        name="Teams">
+        <item>Java</item>
+        <item>C++</item>
+        <item>Python</item>
+    </string-array>
+
+</resources>
