@@ -32,3 +32,10 @@
 
 # Lab 34
 - Create Signed (Released) Apk (app-release.apk)
+
+# Lab 36
+- add User signup (email ,username ,password)
+- add User sign in
+- add Logout in menu
+- Display the logged-in user’s username in menu
+![Lab 36](screenshots/lab36.jpg)
